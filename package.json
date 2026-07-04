@@ -1,0 +1,22 @@
+{
+  "name": "matchai-careers",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 server.py",
+    "build": "echo 'No build step required'",
+    "start": "python3 server.py",
+    "clean": "echo 'No build artifacts to clean'",
+    "lint": "echo 'No linting needed for pure JS frontend'"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "vite": "^6.2.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "tailwindcss": "^4.1.14",
+    "vite": "^6.2.3"
+  }
+}
